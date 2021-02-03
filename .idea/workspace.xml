@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f1448f9-2817-4f21-a898-9e525a156eac" name="Default Changelist" comment="" />
+    <list default="true" id="0f1448f9-2817-4f21-a898-9e525a156eac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projet/tutoprojet.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projet" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -44,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611961913943</updated>
       <workItem from="1611961915115" duration="10229000" />
-      <workItem from="1612357939239" duration="16895000" />
+      <workItem from="1612357939239" duration="17605000" />
     </task>
     <servers />
   </component>
