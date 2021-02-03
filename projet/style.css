@@ -1,0 +1,98 @@
+#box {
+    width: 50%;
+    margin: auto;
+}
+#box h1 {
+    text-align: center;
+}
+
+.droit{
+    text-align: right;
+}
+
+.ligne{
+    display: flex;
+    justify-content: space-between;
+}
+.ligne:nth-child(even){
+    background-color: #ccc;
+}
+.ligne:nth-child(odd){
+    background-color: #f2f2f2;
+}
+.ligne div {
+    padding: 10px;
+    font-family: Arial;
+    font-size: 17px;
+}
+.gris {
+    color: #666;
+ }
+
+.delete {
+    color: #999;
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 25px;
+
+}
+.delete:hover{
+    color: #f00;
+}
+
+.update {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.update:hover{
+    text-decoration: underline;
+}
+.droit{
+    color: #09f;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.droit:hover{
+    text-decoration: none;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #000;
+}
+input[type="text"]:hover{
+    border: 1px solid #0f0;
+
+}
+input[type="submit"]{
+    width: 60%;
+    padding: 10px;
+    border: none;
+    background-color: #F90;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover{
+     background-color: #F60;
+
+}
+.centrer {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .ligne {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+}
